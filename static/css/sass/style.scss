@@ -14,22 +14,58 @@ body {
                 color: rgba(255, 255, 255, 0.8);
             }
 
-             > .active > a,
+             > .active > a:focus,
              > .active > a:hover,
-            > .active > a:focus {
+            > .active > a {
                 color: white;
                 background-color: transparent;
             }
         }
+
         .navbar-brand > img:nth-child(1) {
             width: auto;
             height: 100%;
         }
+
         i.fa:nth-child(2) {
             margin: 0 1em;
         }
     }
+
+    div.col-md-3:nth-child(1) > article:nth-child(1) {
+        padding: 0;
+        text-align: center;
+    }
+
     article {
-        
+        margin-bottom: 1em;
+    }
+
+    .col-md-6 li,
+    article,
+    footer {
+        background-color: white;
+        padding: 1em;
+        border: 0.5px solid #dbdbdb;
+    }
+
+    .col-md-6 li {
+        border-bottom: none;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+    .col-md-6 ul {
+        padding: 0;
+        border-bottom: 0.5px solid #dbdbdb;
+    }
+
+    li {
+        padding: 0.5em 0;
+    }
+    h2 {
+        font-size: 1em;
+        font-weight: bold;
     }
 }
