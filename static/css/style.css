@@ -1,2 +1,19 @@
+body {
+  background-color: #f5f8fa; }
+  body header .navbar {
+    background-color: #3097d1;
+    color: rgba(255, 255, 255, 0.8); }
+  body header .navbar-default .navbar-nav > li > a {
+    color: rgba(255, 255, 255, 0.8); }
+  body header .navbar-default .navbar-nav > .active > a,
+  body header .navbar-default .navbar-nav > .active > a:hover,
+  body header .navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: transparent; }
+  body header .navbar-brand > img:nth-child(1) {
+    width: auto;
+    height: 100%; }
+  body header i.fa:nth-child(2) {
+    margin: 0 1em; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+$clorB: #3097d1;
+
+body {
+    background-color: #f5f8fa;
+
+    header {
+        .navbar {
+            background-color: $clorB;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .navbar-default .navbar-nav {
+            > li > a {
+                color: rgba(255, 255, 255, 0.8);
+            }
+
+             > .active > a,
+             > .active > a:hover,
+            > .active > a:focus {
+                color: white;
+                background-color: transparent;
+            }
+        }
+        .navbar-brand > img:nth-child(1) {
+            width: auto;
+            height: 100%;
+        }
+        i.fa:nth-child(2) {
+            margin: 0 1em;
+        }
+    }
+    article {
+        
+    }
+}
