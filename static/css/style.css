@@ -18,6 +18,18 @@ body {
   body div.col-md-3:nth-child(1) > article:nth-child(1) {
     padding: 0;
     text-align: center; }
+    body div.col-md-3:nth-child(1) > article:nth-child(1) img:nth-child(2) {
+      width: 80px;
+      margin: -40px auto 0 auto;
+      border: 3px solid white; }
+    body div.col-md-3:nth-child(1) > article:nth-child(1) p {
+      padding: 0 1em; }
+    body div.col-md-3:nth-child(1) > article:nth-child(1) ul {
+      display: flex; }
+  body div.col-md-3:nth-child(1) > article:nth-child(2) > ul:nth-child(2) {
+    padding-left: 0; }
+    body div.col-md-3:nth-child(1) > article:nth-child(2) > ul:nth-child(2) i {
+      margin-right: 1em; }
   body article {
     margin-bottom: 1em; }
   body .col-md-6 li,
@@ -38,5 +50,10 @@ body {
   body h2 {
     font-size: 1em;
     font-weight: bold; }
+  body button {
+    color: #3097d1;
+    background-color: white;
+    border: 1px solid #3097d1;
+    border-radius: 3px; }
 
 /*# sourceMappingURL=style.css.map */
